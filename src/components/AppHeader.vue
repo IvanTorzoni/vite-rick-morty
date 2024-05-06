@@ -1,16 +1,12 @@
 <script>
-export default {
-
-}
+export default {};
 </script>
 
 <template>
-    <h1>CIAO</h1>
+    <div class="container text-center mt-3">
+      <h1>Rick and Morty App</h1>
+    </div>
 </template>
 
 <style lang="scss" scoped>
-h1 {
-    color: red;
-    background-color: black;
-}
 </style>
