@@ -39,12 +39,6 @@ export default {
         .then((resp) => {
           this.cardsArray = resp.data.results;
         })
-      } else {
-        axios
-        .get("https://rickandmortyapi.com/api/character")
-        .then((resp) => {
-          this.cardsArray = resp.data.results;
-        })
       }
     }
   }
